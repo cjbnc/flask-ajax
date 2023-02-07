@@ -21,7 +21,7 @@ from flask import Flask, request, render_template, jsonify
 from flask_cors import CORS
 
 # model file is two dirs above this 
-loaded_model = pickle.load(open('../../model.pkl', 'rb'))
+loaded_model = pickle.load(open('model.pkl', 'rb'))
 
 # Set up Flask:
 app = Flask(__name__)
